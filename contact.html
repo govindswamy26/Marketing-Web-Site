@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact PAGE</title>
+    <link rel="icon" href="images/dot logo.webp">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family:Cursive;
+            background-image: url("images/haat.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        .avatar{
+            width: 100px;
+            height: 100px;
+            position: center;
+            top: 0%;
+            border-radius: 50%;
+        }
+        .sign-up-form{
+            width: 350px;
+            height: 500px;
+            box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.3) ;
+            background: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            margin: 8% auto 0;
+            text-align: center;
+        }
+        .input-box{
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            width: 75%;
+            border: 1px solid #999;
+            outline: none;
+        }
+        .signup-btm{
+            background-color: #10069F;
+            color: #fff;
+            width: 40%;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            border: none;
+        }
+        .header {
+            padding: 0px;
+            background: #F1F3FE;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+          
+        .header h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+          
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+          
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .signup-btn{
+                align-items: center;
+                padding-left: 48%;
+                padding-top: 28px;
+                padding-bottom: 10px;
+            }   
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 style="color: #10069F;">CONTACT</h1>
+    </div>
+      
+    <div class="topnav">
+        <a href="project.html">HOME</a>
+        <a href="Sellers.html">Sellers</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+       <div class="sign-up-form">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGBxaYdGHEpJ9001ON09kQBXAnqZaCYG3--fcJQUAIbkQAjWc-BpxmbgwJrzURi0j8gc&usqp=CAU" class="avatar">
+        <hr>
+        <form>
+            <input type="text" class="input-box" placeholder="Full Name" required>
+            <input type="email" class="input-box" placeholder="Email Address" required>
+            <input type="number" class="input-box" placeholder="Number" required>
+            <textarea class="input-box" rows="5" cols="20" placeholder="Message" required></textarea>
+            <p></p>
+            <a href="#"><button type="submit" class="signup-btm">LET'S GO</button></a>
+            <HR>
+        </form>
+       </div>
+        <div class="signup-btn">
+            <a href="project.html" class="signup-btm" style="text-decoration: none;">Go Back</a>
+        </div>
+</body>
+</html>
